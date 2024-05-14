@@ -1,0 +1,27 @@
+h1, h2{
+  margin: 0 0 15px;
+}
+
+h1{
+  font-size: 1.5rem;
+}
+
+h2{
+  font-size: 1.3rem;
+}
+
+.fw-bold{
+  font-weight: bold;
+}
+
+.fs{
+  &-0_7{
+    font-size: .7rem;
+  }
+  &-0_8{
+    font-size: .8rem;
+  }
+  &-1_4{
+    font-size: 1.4rem;
+  }
+}

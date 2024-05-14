@@ -1,0 +1,33 @@
+.comments-area{
+  overflow-y: auto;
+  height: 485px;
+  padding-right: 20px;
+}
+
+.comment-item{
+  border-bottom: 1px solid $grey-2;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+
+  .comment-label{
+    display: inline-block;
+    border-radius: $border-radius + px;
+    color: $grey-3;
+    background-color: $grey;
+    font-size: 0.8rem;
+    padding: 4px;
+  }
+
+  .comment-author{
+    color: $grey-3;
+  }
+
+  .comment-data{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .comment-author{
+    font-size: .8rem;
+  }
+}
